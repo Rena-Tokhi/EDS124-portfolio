@@ -1,77 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EDS 124BR Teaching Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Lato', sans-serif; background: #fff; color: #222; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDS 124BR Teaching Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  header {
-    position: relative;
-    height: 420px;
-    background: #2f353d;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  /* angled panels like the Google Sites theme */
-  header::before, header::after {
-    content: "";
-    position: absolute;
-    top: 0; bottom: 0;
-    width: 60%;
-    background: rgba(255,255,255,0.04);
-    transform: skewX(-25deg);
-  }
-  header::before { left: -20%; }
-  header::after  { right: -30%; background: rgba(255,255,255,0.06); }
+    body {
+      font-family: 'Lato', sans-serif;
+      background: #fff;
+      color: #222;
+    }
 
-  .site-name {
-    position: absolute;
-    top: 24px; left: 32px;
-    color: #fff;
-    font-size: 24px;
-    z-index: 1;
-  }
-  h1 {
-    color: #fff;
-    font-weight: 300;
-    font-size: clamp(48px, 10vw, 110px);
-    letter-spacing: 2px;
-    z-index: 1;
-  }
+    header {
+      position: relative;
+      height: 420px;
+      background: #2f353d;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-  main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px 24px 80px;
-  }
-  .entry { margin-bottom: 50px; font-size: 19px; line-height: 1.5; }
-  .entry a { color: #1a5b8a; }
-  .entry a:hover { color: #0d3a5c; }
-</style>
+    /* angled panels like the Google Sites theme */
+    header::before,
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 60%;
+      background: rgba(255, 255, 255, 0.04);
+      transform: skewX(-25deg);
+    }
+
+    header::before {
+      left: -20%;
+    }
+
+    header::after {
+      right: -30%;
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .site-name {
+      position: absolute;
+      top: 24px;
+      left: 32px;
+      color: #fff;
+      font-size: 24px;
+      z-index: 1;
+    }
+
+    h1 {
+      color: #fff;
+      font-weight: 300;
+      font-size: clamp(48px, 10vw, 110px);
+      letter-spacing: 2px;
+      z-index: 1;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 24px 80px;
+    }
+
+    .entry {
+      margin-bottom: 50px;
+      font-size: 19px;
+      line-height: 1.5;
+    }
+
+    .entry a {
+      color: #1a5b8a;
+    }
+
+    .entry a:hover {
+      color: #0d3a5c;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <!-- CHANGE: put your name here -->
-  <div class="site-name">EDS124BR - Your Name</div>
-  <h1>EDS 124BR</h1>
-</header>
+  <header>
+    <!-- CHANGE: put your name here -->
+    <div class="site-name">EDS124BR - Your Name</div>
+    <h1>EDS 124BR</h1>
+  </header>
 
-<main>
-  <!-- CHANGE: paste your YouTube link in BOTH places (href and the visible text) -->
-  <p class="entry">
-    <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">https://youtu.be/YOUR_VIDEO_ID</a>
-    - Week 3: Code Walkthrough: Nested Repeats
-  </p>
+  <main>
+    <!-- CHANGE: paste your YouTube link in BOTH places (href and the visible text) -->
+    <p class="entry">
+      <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">https://youtu.be/YOUR_VIDEO_ID</a>
+      - Week 3: Code Walkthrough: Nested Repeats
+    </p>
 
-  <!-- To add more videos later, copy the <p class="entry"> block above and change the link and text -->
-</main>
+    <!-- To add more videos later, copy the <p class="entry"> block above and change the link and text -->
+    <p class="entry"> <a href="https://youtu.be/qaOnrleJZJk" target="_blank">https://youtu.be/qaOnrleJZJk</a> - Week 3: Code Walkthrough:
+      Events </p>
+  </main>
 
 </body>
+
 </html>
